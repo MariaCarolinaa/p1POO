@@ -28,6 +28,9 @@
         <title>JSP Page</title>
     </head>
     <body>
+        
+        <%@include file="WEB-INF/componentes/menu.jspf" %>
+        
         <table border="1">
             <tr>
                 <th>Nome</th>

@@ -33,6 +33,9 @@
         <title>JSP Page</title>
     </head>
     <body>
+        
+        <%@include file="WEB-INF/componentes/menu.jspf" %>
+        
         <div>
             <p>Nome: Maria Carolina Martins</p>
             <p>RA: 1290482013028</p>
